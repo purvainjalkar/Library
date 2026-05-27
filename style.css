@@ -1,0 +1,85 @@
+.form-container{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin:40px;
+}
+
+.issue-box,
+.return-box{
+
+    width:400px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+.issue-box h2,
+.return-box h2{
+
+    text-align:center;
+    margin-bottom:20px;
+    color:#1e3a8a;
+
+}
+
+.issue-box input,
+.return-box input,
+.issue-box select,
+.return-box select{
+
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+
+}
+
+.issue-box button,
+.return-box button{
+
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    color:white;
+    cursor:pointer;
+    margin-top:15px;
+    font-size:16px;
+
+}
+
+.issue-box button{
+    background:green;
+}
+
+.return-btn{
+    background:red;
+}
+
+#issueResult,
+#returnResult{
+
+    margin-top:20px;
+    background:#f4f4f4;
+    padding:15px;
+    border-radius:10px;
+
+}
+.buttons{
+   display:flex;
+   gap:10px;
+   margin-top:15px;
+}
+
+.issue{
+   background:green;
+}
+
+.return{
+   background:red;
+}
